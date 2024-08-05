@@ -1,3 +1,3 @@
 # PatikaStore
 
-[alt text]('./ss.png')
+[alt text]('ss.png')
