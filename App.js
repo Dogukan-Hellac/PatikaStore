@@ -27,6 +27,7 @@ export default function App() {
             )
           }}
           numColumns={2}
+          contentContainerStyle={{ paddingBottom: 100 }}
         />
       </View>
     </SafeAreaView>

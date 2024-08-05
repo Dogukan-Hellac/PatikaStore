@@ -4,10 +4,10 @@ import React from 'react'
 export default function ListItem({ title, price, imgURL, inStock }) {
     return (
         <View style={styles.container}>
-            <Image
-                style={styles.image}
-                source={{ uri: imgURL }}
-            />
+                <Image
+                    style={styles.image}
+                    source={{ uri: imgURL }}
+                />
             <View style={styles.textContainer}>
                 <Text style={styles.title}>{title}</Text>
                 <Text style={styles.price}>{price}</Text>
@@ -35,13 +35,14 @@ const styles = StyleSheet.create({
     },
     textContainer: {
         alignItems: 'flex-start',
+        width:'100%'
     },
     title: {
         fontWeight: 'bold',
     },
     price: {
-        color:'gray',
-        fontWeight:'bold'
+        color: 'gray',
+        fontWeight: 'bold'
     },
     stock: {
         fontWeight: 'bold',

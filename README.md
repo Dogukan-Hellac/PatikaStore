@@ -1,1 +1,2 @@
-# patika-PatikaStore
+# PatikaStore
+
